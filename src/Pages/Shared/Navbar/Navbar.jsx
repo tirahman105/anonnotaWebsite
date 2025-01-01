@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 ">
-      <div className="navbar max-w-7xl mx-auto">
+    <div className="navbar bg-gradient-to-r from-[#D0EEF2] to-[#E6ECF9] ">
+      <div className="navbar bg-white rounded-full max-w-7xl mx-auto shadow-md">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -87,7 +87,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-blue-500 text-white">Find Us on Facebook</a>
+          <a className="btn rounded-full bg-blue-500 text-white">
+            Find Us on Facebook
+          </a>
         </div>
       </div>
     </div>

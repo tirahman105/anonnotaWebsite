@@ -37,7 +37,10 @@ const Banner = () => {
 
   return (
     <>
-      <h1 className="text-center p-4 text-3xl font-bold">
+      <div>
+        <div>This is AnonnoTa</div>
+      </div>
+      {/* <h1 className="text-center p-4 text-3xl font-bold">
         AnonnoTa Website will live after{" "}
       </h1>
       <div className="flex items-center justify-center mt-10">
@@ -67,7 +70,7 @@ const Banner = () => {
             sec
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
